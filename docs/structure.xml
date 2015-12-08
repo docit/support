@@ -762,7 +762,7 @@ and returns an associative array containing the vendor and package name</descrip
   </file>
   <file path="Traits/ValidatorTrait.php" generated-path="Traits.ValidatorTrait.html" hash="5f60659318ec293b823e0402c5d2b020" package="Default">
     <docblock line="0">
-      <description>Part of the Caffeinated PHP packages.</description>
+      <description>Part of the Docit PHP packages.</description>
       <long-description>MIT License and copyright information bundled with this package in the LICENSE file</long-description>
       <tag name="package" line="0" description="Default"/>
     </docblock>
@@ -1416,7 +1416,7 @@ and returns an associative array containing the vendor and package name</descrip
   </file>
   <file path="Traits/ContainerTrait.php" generated-path="Traits.ContainerTrait.html" hash="062907437b1dbb501a0b8f67d11b7dfc" package="Default">
     <docblock line="0">
-      <description>Part of the Caffeinated PHP packages.</description>
+      <description>Part of the Docit PHP packages.</description>
       <long-description>MIT License and copyright information bundled with this package in the LICENSE file</long-description>
       <tag name="package" line="0" description="Default"/>
     </docblock>
