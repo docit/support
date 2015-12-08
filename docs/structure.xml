@@ -762,7 +762,7 @@ and returns an associative array containing the vendor and package name</descrip
   </file>
   <file path="Traits/ValidatorTrait.php" generated-path="Traits.ValidatorTrait.html" hash="5f60659318ec293b823e0402c5d2b020" package="Default">
     <docblock line="0">
-      <description>Part of the Docit PHP packages.</description>
+      <description>Part of the Caffeinated PHP packages.</description>
       <long-description>MIT License and copyright information bundled with this package in the LICENSE file</long-description>
       <tag name="package" line="0" description="Default"/>
     </docblock>
@@ -1416,7 +1416,7 @@ and returns an associative array containing the vendor and package name</descrip
   </file>
   <file path="Traits/ContainerTrait.php" generated-path="Traits.ContainerTrait.html" hash="062907437b1dbb501a0b8f67d11b7dfc" package="Default">
     <docblock line="0">
-      <description>Part of the Docit PHP packages.</description>
+      <description>Part of the Caffeinated PHP packages.</description>
       <long-description>MIT License and copyright information bundled with this package in the LICENSE file</long-description>
       <tag name="package" line="0" description="Default"/>
     </docblock>
@@ -2052,46 +2052,46 @@ and returns an associative array containing the vendor and package name</descrip
         </docblock>
         <inherited_from>\Docit\Support\ServiceProvider</inherited_from>
       </method>
-      <method final="false" abstract="false" static="false" visibility="protected" namespace="Docit\Support" line="320" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="Docit\Support" line="318" package="Docit\Support">
         <name>bootViews</name>
         <full_name>\Docit\Support\ServiceProvider::bootViews()</full_name>
-        <docblock line="320">
+        <docblock line="318">
           <description>Adds the view directories defined in $viewDirs to the publish procedure.</description>
           <long-description>Can be overriden to adjust default functionality</long-description>
         </docblock>
         <inherited_from>\Docit\Support\ServiceProvider</inherited_from>
       </method>
-      <method final="false" abstract="false" static="false" visibility="protected" namespace="Docit\Support" line="338" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="Docit\Support" line="334" package="Docit\Support">
         <name>bootAssets</name>
         <full_name>\Docit\Support\ServiceProvider::bootAssets()</full_name>
-        <docblock line="338">
+        <docblock line="334">
           <description>Adds the asset directories defined in $assetDirs to the publish procedure.</description>
           <long-description>Can be overriden to adjust default functionality</long-description>
         </docblock>
         <inherited_from>\Docit\Support\ServiceProvider</inherited_from>
       </method>
-      <method final="false" abstract="false" static="false" visibility="protected" namespace="Docit\Support" line="354" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="Docit\Support" line="348" package="Docit\Support">
         <name>bootMigrations</name>
         <full_name>\Docit\Support\ServiceProvider::bootMigrations()</full_name>
-        <docblock line="354">
+        <docblock line="348">
           <description>Adds the migration directories defined in $migrationDirs to the publish procedure.</description>
           <long-description>Can be overriden to adjust default functionality</long-description>
         </docblock>
         <inherited_from>\Docit\Support\ServiceProvider</inherited_from>
       </method>
-      <method final="false" abstract="false" static="false" visibility="protected" namespace="Docit\Support" line="369" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="Docit\Support" line="361" package="Docit\Support">
         <name>bootSeeds</name>
         <full_name>\Docit\Support\ServiceProvider::bootSeeds()</full_name>
-        <docblock line="369">
+        <docblock line="361">
           <description>Adds the seed directories defined in $seedDirs to the publish procedure.</description>
           <long-description>Can be overriden to adjust default functionality</long-description>
         </docblock>
         <inherited_from>\Docit\Support\ServiceProvider</inherited_from>
       </method>
-      <method final="false" abstract="false" static="false" visibility="protected" namespace="Docit\Support" line="380" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="Docit\Support" line="370" package="Docit\Support">
         <name>requireHelpersFor</name>
         <full_name>\Docit\Support\ServiceProvider::requireHelpersFor()</full_name>
-        <docblock line="380">
+        <docblock line="370">
           <description></description>
           <long-description></long-description>
         </docblock>
@@ -2102,44 +2102,44 @@ and returns an associative array containing the vendor and package name</descrip
         </argument>
         <inherited_from>\Docit\Support\ServiceProvider</inherited_from>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="405" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="393" package="Docit\Support">
         <name>register</name>
         <full_name>\Docit\Support\ServiceProvider::register()</full_name>
-        <docblock line="405">
+        <docblock line="393">
           <description>Registers the server in the container.</description>
           <long-description></long-description>
-          <tag name="return" line="405" description="" type="\Illuminate\Foundation\Application">
+          <tag name="return" line="393" description="" type="\Illuminate\Foundation\Application">
             <type>\Illuminate\Foundation\Application</type>
           </tag>
-          <tag name="throws" line="405" description="" type="\Exception">
+          <tag name="throws" line="393" description="" type="\Exception">
             <type>\Exception</type>
           </tag>
         </docblock>
         <inherited_from>\Docit\Support\ServiceProvider</inherited_from>
       </method>
-      <method final="false" abstract="false" static="false" visibility="protected" namespace="Docit\Support" line="485" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="Docit\Support" line="461" package="Docit\Support">
         <name>registerConfigFiles</name>
         <full_name>\Docit\Support\ServiceProvider::registerConfigFiles()</full_name>
-        <docblock line="485">
+        <docblock line="461">
           <description>Merges all defined config files defined in $configFiles.</description>
           <long-description>Can be overriden to adjust default functionality</long-description>
         </docblock>
         <inherited_from>\Docit\Support\ServiceProvider</inherited_from>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="515" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="489" package="Docit\Support">
         <name>getPath</name>
         <full_name>\Docit\Support\ServiceProvider::getPath()</full_name>
-        <docblock line="515">
+        <docblock line="489">
           <description>getFilePath</description>
           <long-description></long-description>
-          <tag name="param" line="515" description="" type="" variable="$relativePath"/>
-          <tag name="param" line="515" description="" type="null" variable="$fileName">
+          <tag name="param" line="489" description="" type="" variable="$relativePath"/>
+          <tag name="param" line="489" description="" type="null" variable="$fileName">
             <type>null</type>
           </tag>
-          <tag name="param" line="515" description="" type="string" variable="$ext">
+          <tag name="param" line="489" description="" type="string" variable="$ext">
             <type>string</type>
           </tag>
-          <tag name="return" line="515" description="" type="string">
+          <tag name="return" line="489" description="" type="string">
             <type>string</type>
           </tag>
         </docblock>
@@ -2160,16 +2160,16 @@ and returns an associative array containing the vendor and package name</descrip
         </argument>
         <inherited_from>\Docit\Support\ServiceProvider</inherited_from>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="528" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="502" package="Docit\Support">
         <name>getConfigFilePath</name>
         <full_name>\Docit\Support\ServiceProvider::getConfigFilePath()</full_name>
-        <docblock line="528">
+        <docblock line="502">
           <description>getConfigFilePath</description>
           <long-description></long-description>
-          <tag name="param" line="528" description="" type="null" variable="$fileName">
+          <tag name="param" line="502" description="" type="null" variable="$fileName">
             <type>null</type>
           </tag>
-          <tag name="return" line="528" description="" type="string">
+          <tag name="return" line="502" description="" type="string">
             <type>string</type>
           </tag>
         </docblock>
@@ -2180,16 +2180,16 @@ and returns an associative array containing the vendor and package name</descrip
         </argument>
         <inherited_from>\Docit\Support\ServiceProvider</inherited_from>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="539" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="513" package="Docit\Support">
         <name>getDatabasePath</name>
         <full_name>\Docit\Support\ServiceProvider::getDatabasePath()</full_name>
-        <docblock line="539">
+        <docblock line="513">
           <description>getMigrationFilePath</description>
           <long-description></long-description>
-          <tag name="param" line="539" description="" type="null" variable="$path">
+          <tag name="param" line="513" description="" type="null" variable="$path">
             <type>null</type>
           </tag>
-          <tag name="return" line="539" description="" type="string">
+          <tag name="return" line="513" description="" type="string">
             <type>string</type>
           </tag>
         </docblock>
@@ -2200,16 +2200,16 @@ and returns an associative array containing the vendor and package name</descrip
         </argument>
         <inherited_from>\Docit\Support\ServiceProvider</inherited_from>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="550" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="524" package="Docit\Support">
         <name>getResourcesPath</name>
         <full_name>\Docit\Support\ServiceProvider::getResourcesPath()</full_name>
-        <docblock line="550">
+        <docblock line="524">
           <description>getViewFilePath</description>
           <long-description></long-description>
-          <tag name="param" line="550" description="" type="null" variable="$path">
+          <tag name="param" line="524" description="" type="null" variable="$path">
             <type>null</type>
           </tag>
-          <tag name="return" line="550" description="" type="string">
+          <tag name="return" line="524" description="" type="string">
             <type>string</type>
           </tag>
         </docblock>
@@ -2220,16 +2220,16 @@ and returns an associative array containing the vendor and package name</descrip
         </argument>
         <inherited_from>\Docit\Support\ServiceProvider</inherited_from>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="561" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="535" package="Docit\Support">
         <name>getAssetsPath</name>
         <full_name>\Docit\Support\ServiceProvider::getAssetsPath()</full_name>
-        <docblock line="561">
+        <docblock line="535">
           <description>getAssetsPath</description>
           <long-description></long-description>
-          <tag name="param" line="561" description="" type="null" variable="$dirName">
+          <tag name="param" line="535" description="" type="null" variable="$dirName">
             <type>null</type>
           </tag>
-          <tag name="return" line="561" description="" type="string">
+          <tag name="return" line="535" description="" type="string">
             <type>string</type>
           </tag>
         </docblock>
@@ -2240,16 +2240,16 @@ and returns an associative array containing the vendor and package name</descrip
         </argument>
         <inherited_from>\Docit\Support\ServiceProvider</inherited_from>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="572" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="546" package="Docit\Support">
         <name>getViewsPath</name>
         <full_name>\Docit\Support\ServiceProvider::getViewsPath()</full_name>
-        <docblock line="572">
+        <docblock line="546">
           <description>getViewsPath</description>
           <long-description></long-description>
-          <tag name="param" line="572" description="" type="null" variable="$path">
+          <tag name="param" line="546" description="" type="null" variable="$path">
             <type>null</type>
           </tag>
-          <tag name="return" line="572" description="" type="string">
+          <tag name="return" line="546" description="" type="string">
             <type>string</type>
           </tag>
         </docblock>
@@ -2260,13 +2260,13 @@ and returns an associative array containing the vendor and package name</descrip
         </argument>
         <inherited_from>\Docit\Support\ServiceProvider</inherited_from>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="582" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="556" package="Docit\Support">
         <name>provides</name>
         <full_name>\Docit\Support\ServiceProvider::provides()</full_name>
-        <docblock line="582">
+        <docblock line="556">
           <description>Get the services provided by the provider.</description>
           <long-description></long-description>
-          <tag name="return" line="582" description="" type="array">
+          <tag name="return" line="556" description="" type="array">
             <type>array</type>
           </tag>
         </docblock>
@@ -4050,7 +4050,7 @@ a regular expression pattern.</description>
     </parse_markers>
     <source>eJyVVU1v2zAMvedX8BCgTuEl24Bd2n2n3RYg/UCTy7AWhqIwtjBbNiS5TbD1v4+S5cRxkrbzoVXEx0fqkZTefyqSojM4Pu7AMVwzZSBfgEkQJjh7EAbh+sc1FIz/ZjHqPoEs7mI0hbHgKDUCk3PgebFSIk4MCLnIVcaMyCXMSjlPcQ5EkxCl0DUPoVyI8Wh4fjk5h4VIkWgHHcky1ARCOMu5MLeTsihyZU47nZIi3SAvlRb3eCYUcpOr1cigYrQ43bbX221zjMvtrVGalpmQzODtN8pBr7TBrLEEphuYzX7lPVlli1yubod5VuQSpTlM4qFNhlrzWmd/VthgvNifWWmSXAF9NfYM72GKLHPmjfjD9SrgPXj7+s27sHZxyNSXDCAxptAng4FJ5yrFmKV9nmcDbx9kwryqsY1SO466hLBdImfLxJIqe/tCXVzFecq0bpwZcGlQzvfL3vnTsSo44exHIe+Z+o+Azmng/hcqN9RE1J7dfcVpxRkqpEyAgcQH164+WyG1YZJj3wO3Q5QzUhEWpeRuHqKI54RXJTdBzyGq89iva+fj1cedVOCDC7knRev1uJPoegbSFeVJo1kwk7ixAppKnggZu9GLCSKtkeZBtrK3RVYsA6BcLR66Hte2C2mq5Bcpi/XaqtCUSgJTiq2eFETFaT4LavbQ89CRX+/I4zQny16Pni+Y/ej6QcYTCBxyLpQ9/Nqj1z8aHB+F8H189TW6uhz/PBvdwN/q5+XV5Opm2rPj2iW/XiP8VgruXFGGKiZetxnW5fMHIm+Kc9SfMY3b4dcZ907X5I+b5L1yFeuhEk+QKZ40qrjI0zkqcm6Unu6LKt9SUwlrV0aguExpZnBZKNTaVuGlTVCFeXGPvLwLtDtQ4AOEa6qdJiBdq1U1FIffg5qroXJXeFvbuf1YuPI1HSsdG1Ebz0iwpt2kHW5DTk6+n0+jiy/T4Y8261hoQ6y/7vb1r49ru9Gu9rajJ9jpSLsfer9nG82CD/XaBYupVJylKWRIr9D82S6pYG0zvQx007ouod9I0ugne4KuSooZeLaw6dfuCrGAoIJFuKSj6ODQXRrW2fXaYno5bMyIXnYV2UQiJ2vw61m6u+38moJXfx87/wAm2uo4</source>
   </file>
-  <file path="ServiceProvider.php" generated-path="ServiceProvider.html" hash="85f7f053dd75c6dff6bd5288262a4ca1" package="Default">
+  <file path="ServiceProvider.php" generated-path="ServiceProvider.html" hash="d2caa92ed1373ada48eba71065d115f4" package="Default">
     <docblock line="0">
       <description>Part of the Sebwite PHP packages.</description>
       <long-description>MIT License and copyright information bundled with this package in the LICENSE file</long-description>
@@ -4446,42 +4446,42 @@ a regular expression pattern.</description>
           <long-description>Can be overriden to adjust default functionality</long-description>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="protected" namespace="Docit\Support" line="320" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="Docit\Support" line="318" package="Docit\Support">
         <name>bootViews</name>
         <full_name>\Docit\Support\ServiceProvider::bootViews()</full_name>
-        <docblock line="320">
+        <docblock line="318">
           <description>Adds the view directories defined in $viewDirs to the publish procedure.</description>
           <long-description>Can be overriden to adjust default functionality</long-description>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="protected" namespace="Docit\Support" line="338" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="Docit\Support" line="334" package="Docit\Support">
         <name>bootAssets</name>
         <full_name>\Docit\Support\ServiceProvider::bootAssets()</full_name>
-        <docblock line="338">
+        <docblock line="334">
           <description>Adds the asset directories defined in $assetDirs to the publish procedure.</description>
           <long-description>Can be overriden to adjust default functionality</long-description>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="protected" namespace="Docit\Support" line="354" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="Docit\Support" line="348" package="Docit\Support">
         <name>bootMigrations</name>
         <full_name>\Docit\Support\ServiceProvider::bootMigrations()</full_name>
-        <docblock line="354">
+        <docblock line="348">
           <description>Adds the migration directories defined in $migrationDirs to the publish procedure.</description>
           <long-description>Can be overriden to adjust default functionality</long-description>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="protected" namespace="Docit\Support" line="369" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="Docit\Support" line="361" package="Docit\Support">
         <name>bootSeeds</name>
         <full_name>\Docit\Support\ServiceProvider::bootSeeds()</full_name>
-        <docblock line="369">
+        <docblock line="361">
           <description>Adds the seed directories defined in $seedDirs to the publish procedure.</description>
           <long-description>Can be overriden to adjust default functionality</long-description>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="protected" namespace="Docit\Support" line="380" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="Docit\Support" line="370" package="Docit\Support">
         <name>requireHelpersFor</name>
         <full_name>\Docit\Support\ServiceProvider::requireHelpersFor()</full_name>
-        <docblock line="380">
+        <docblock line="370">
           <description></description>
           <long-description></long-description>
         </docblock>
@@ -4491,42 +4491,42 @@ a regular expression pattern.</description>
           <type/>
         </argument>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="405" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="393" package="Docit\Support">
         <name>register</name>
         <full_name>\Docit\Support\ServiceProvider::register()</full_name>
-        <docblock line="405">
+        <docblock line="393">
           <description>Registers the server in the container.</description>
           <long-description></long-description>
-          <tag name="return" line="405" description="" type="\Illuminate\Foundation\Application">
+          <tag name="return" line="393" description="" type="\Illuminate\Foundation\Application">
             <type>\Illuminate\Foundation\Application</type>
           </tag>
-          <tag name="throws" line="405" description="" type="\Exception">
+          <tag name="throws" line="393" description="" type="\Exception">
             <type>\Exception</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="protected" namespace="Docit\Support" line="485" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="Docit\Support" line="461" package="Docit\Support">
         <name>registerConfigFiles</name>
         <full_name>\Docit\Support\ServiceProvider::registerConfigFiles()</full_name>
-        <docblock line="485">
+        <docblock line="461">
           <description>Merges all defined config files defined in $configFiles.</description>
           <long-description>Can be overriden to adjust default functionality</long-description>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="515" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="489" package="Docit\Support">
         <name>getPath</name>
         <full_name>\Docit\Support\ServiceProvider::getPath()</full_name>
-        <docblock line="515">
+        <docblock line="489">
           <description>getFilePath</description>
           <long-description></long-description>
-          <tag name="param" line="515" description="" type="" variable="$relativePath"/>
-          <tag name="param" line="515" description="" type="null" variable="$fileName">
+          <tag name="param" line="489" description="" type="" variable="$relativePath"/>
+          <tag name="param" line="489" description="" type="null" variable="$fileName">
             <type>null</type>
           </tag>
-          <tag name="param" line="515" description="" type="string" variable="$ext">
+          <tag name="param" line="489" description="" type="string" variable="$ext">
             <type>string</type>
           </tag>
-          <tag name="return" line="515" description="" type="string">
+          <tag name="return" line="489" description="" type="string">
             <type>string</type>
           </tag>
         </docblock>
@@ -4546,16 +4546,16 @@ a regular expression pattern.</description>
           <type>string</type>
         </argument>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="528" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="502" package="Docit\Support">
         <name>getConfigFilePath</name>
         <full_name>\Docit\Support\ServiceProvider::getConfigFilePath()</full_name>
-        <docblock line="528">
+        <docblock line="502">
           <description>getConfigFilePath</description>
           <long-description></long-description>
-          <tag name="param" line="528" description="" type="null" variable="$fileName">
+          <tag name="param" line="502" description="" type="null" variable="$fileName">
             <type>null</type>
           </tag>
-          <tag name="return" line="528" description="" type="string">
+          <tag name="return" line="502" description="" type="string">
             <type>string</type>
           </tag>
         </docblock>
@@ -4565,16 +4565,16 @@ a regular expression pattern.</description>
           <type>null</type>
         </argument>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="539" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="513" package="Docit\Support">
         <name>getDatabasePath</name>
         <full_name>\Docit\Support\ServiceProvider::getDatabasePath()</full_name>
-        <docblock line="539">
+        <docblock line="513">
           <description>getMigrationFilePath</description>
           <long-description></long-description>
-          <tag name="param" line="539" description="" type="null" variable="$path">
+          <tag name="param" line="513" description="" type="null" variable="$path">
             <type>null</type>
           </tag>
-          <tag name="return" line="539" description="" type="string">
+          <tag name="return" line="513" description="" type="string">
             <type>string</type>
           </tag>
         </docblock>
@@ -4584,16 +4584,16 @@ a regular expression pattern.</description>
           <type>null</type>
         </argument>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="550" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="524" package="Docit\Support">
         <name>getResourcesPath</name>
         <full_name>\Docit\Support\ServiceProvider::getResourcesPath()</full_name>
-        <docblock line="550">
+        <docblock line="524">
           <description>getViewFilePath</description>
           <long-description></long-description>
-          <tag name="param" line="550" description="" type="null" variable="$path">
+          <tag name="param" line="524" description="" type="null" variable="$path">
             <type>null</type>
           </tag>
-          <tag name="return" line="550" description="" type="string">
+          <tag name="return" line="524" description="" type="string">
             <type>string</type>
           </tag>
         </docblock>
@@ -4603,16 +4603,16 @@ a regular expression pattern.</description>
           <type>null</type>
         </argument>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="561" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="535" package="Docit\Support">
         <name>getAssetsPath</name>
         <full_name>\Docit\Support\ServiceProvider::getAssetsPath()</full_name>
-        <docblock line="561">
+        <docblock line="535">
           <description>getAssetsPath</description>
           <long-description></long-description>
-          <tag name="param" line="561" description="" type="null" variable="$dirName">
+          <tag name="param" line="535" description="" type="null" variable="$dirName">
             <type>null</type>
           </tag>
-          <tag name="return" line="561" description="" type="string">
+          <tag name="return" line="535" description="" type="string">
             <type>string</type>
           </tag>
         </docblock>
@@ -4622,16 +4622,16 @@ a regular expression pattern.</description>
           <type>null</type>
         </argument>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="572" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="546" package="Docit\Support">
         <name>getViewsPath</name>
         <full_name>\Docit\Support\ServiceProvider::getViewsPath()</full_name>
-        <docblock line="572">
+        <docblock line="546">
           <description>getViewsPath</description>
           <long-description></long-description>
-          <tag name="param" line="572" description="" type="null" variable="$path">
+          <tag name="param" line="546" description="" type="null" variable="$path">
             <type>null</type>
           </tag>
-          <tag name="return" line="572" description="" type="string">
+          <tag name="return" line="546" description="" type="string">
             <type>string</type>
           </tag>
         </docblock>
@@ -4641,25 +4641,25 @@ a regular expression pattern.</description>
           <type/>
         </argument>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="582" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="556" package="Docit\Support">
         <name>provides</name>
         <full_name>\Docit\Support\ServiceProvider::provides()</full_name>
-        <docblock line="582">
+        <docblock line="556">
           <description>Get the services provided by the provider.</description>
           <long-description></long-description>
-          <tag name="return" line="582" description="" type="array">
+          <tag name="return" line="556" description="" type="array">
             <type>array</type>
           </tag>
         </docblock>
       </method>
     </class>
     <parse_markers>
-      <error line="380" code="PPC:ERR-50015">Argument $for is missing from the Docblock of requireHelpersFor</error>
-      <error line="380" code="PPC:ERR-50008">No summary for method requireHelpersFor()</error>
+      <error line="370" code="PPC:ERR-50015">Argument $for is missing from the Docblock of requireHelpersFor</error>
+      <error line="370" code="PPC:ERR-50008">No summary for method requireHelpersFor()</error>
       <error line="205" code="PPC:ERR-50007">No summary for property $deferredProviders</error>
       <error line="267" code="PPC:ERR-50007">No summary for property $facades</error>
     </parse_markers>
-    <source>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</source>
+    <source>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</source>
   </file>
   <file path="Command.php" generated-path="Command.html" hash="a656424b44e19478be0823b26b2224f4" package="Default">
     <docblock line="0">
@@ -6182,7 +6182,7 @@ a regular expression pattern.</description>
     </class>
     <source>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</source>
   </file>
-  <file path="ConsoleServiceProvider.php" generated-path="ConsoleServiceProvider.html" hash="d5672ff07a397c531d24fa72eff5e0d6" package="Default">
+  <file path="ConsoleServiceProvider.php" generated-path="ConsoleServiceProvider.html" hash="edb2e43a97f41682bc9825d617d36ea7" package="Default">
     <docblock line="0">
       <description>Part of the Sebwite PHP packages.</description>
       <long-description>MIT License and copyright information bundled with this package in the LICENSE file</long-description>
@@ -6270,13 +6270,13 @@ a regular expression pattern.</description>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="75" package="Docit\Support">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Docit\Support" line="74" package="Docit\Support">
         <name>provides</name>
         <full_name>\Docit\Support\ConsoleServiceProvider::provides()</full_name>
-        <docblock line="75">
+        <docblock line="74">
           <description>Get the services provided by the provider.</description>
           <long-description></long-description>
-          <tag name="return" line="75" description="" type="array">
+          <tag name="return" line="74" description="" type="array">
             <type>array</type>
           </tag>
         </docblock>
@@ -6286,7 +6286,7 @@ a regular expression pattern.</description>
       <error line="46" code="PPC:ERR-50007">No summary for property $prefix</error>
       <error line="48" code="PPC:ERR-50007">No summary for property $commandSuffix</error>
     </parse_markers>
-    <source>eJyNVNFu2jAUfc9X3IdKBdSSbdJe1tFVo2hD6iY0eCvV5CQ3xKpjR7ZDi6r++2xjJxCCNAsJcM4999zjE3/9VhVVFI9GEYxgQaQGkYMuEJaYvFCNsPi5gIqkz2SDamxAFvdrvoIHmiJXCIRnkIpqJ+mm0EB5LmRJNBUckppnDDMwNIWhpCrwGJRr8TCfzn4vZ5BThoY2jjgpURkQwr1IqV4v66oSUt9EUW06zaQUcvaaYmXpb9zenLG6pJxoDOD1EuXWaFtIsaUZSiAKvhOFnW3D6YdeWWXmYxVNBVeCdbFh7Lug368jkQ5Aal0IGZ43Ht7jFlZISodpzXJr2vwdpEP49OHj56tQ5+DM++xXoXWlvsSxZplkuCFsnIoy9qC4pPo6FBwckjOXJEpLkmpIGVHqzKiArxp51mtZ9BZZBc42u0Yw5xlNjffGvxyYIBnlm5CfKjAaazPMUUrMxr4w1N9tiYRECOY3YvdtKjWm2iTnwhXCBLSs0ZxYp/3KtGkj81KgRNfaOFISOwSR2NfR+GCEnuvZMk7g8rK/a9NBC0gQJG6o0nhuQiIl2Z1r11BN4BGeTtv9h+JKYk5fD+We8i/r3GOm+42eyf74MZyJan/4zTmeTKYLKV5U5608llgnJoyQ1zx1F0KwaTB0j/dxssvcGUjSAgZwYe+J69v2BBVcJJS7YE1um2lg2NS2LHY5sP0xCVTenHHDc3NcEBiNM+v1pcXt69oYjJsnATvu6Nybe0xcm/dODzrzPLbTPA07QnqR8GQn8Zu9BaSqrm+VYWSoBR+4qqum5KDJexSd6TVwAf37jDvVFTz0BKa4m5YfqA+DokJSMkh2RzfASXIk6lryvteiExjPoE4Cc8jQrzvIfo/+AVuFB7k=</source>
+    <source>eJyNVNFu2jAUfc9X3IdKBdSSbdJe1tFVo2hD6iY0eCvV5Dg3xGpiR7ZDi6r++2xjJxCCNAsJcM4599zj63z9VuVVFI9GEYxgQaQGkYHOEZaYvDCNsPi5gIrQZ7JBNTYgi/s1X8EDo8gVAuEpUFHtJNvkGhjPhCyJZoJDUvO0wBSMTG4kmQo6BuVKPMyns9/LGWSsQCMbR5yUqAwI4V5QptfLuqqE1DdRVJtKMymFnL1SrKz8jdubF0VdMk40BvB6iXJrvC2k2LIUJRAF34nCzrbR9E2vrDPzsY6mgitRdLGh7bvg368jkw5Aap0LGZ43Gd7jFlZISodpw3Jr2vwd0CF8+vDx81XgOXjhc/Yr17pSX+JYF6kscEOKMRVl7EFxyfR1IBwckguXJEpLQjXQgih1plXAV4087Y0seousAxebXSOY85RRk73JL4NCkJTxTZifKiiaaFPMUEpMx54Y+HdbIiERovAbsfs2TI1Um8m5cESYgJY1mhPrlF+ZMu3IvOQo0ZU2iZTENkEk9lU0ORij52q2ihO4vOyv2lTQAhIEiRumNJ7rkEhJdufKNVITeISn03L/4biSmLHXQ7un+ss685jpfqOnsz++DRei2h9+c44nnelcihfVuZXHFuvEDCNkNafuhRBiGgzd4/042WXeGUhoDoML+5q4vm0PUMFFwribq8lt08zwgGuXw9gfE/AKPpJxQ785Jnghm8d6fWlxe157+OPmScA2oKNIj4Vrc9t0t43HtomnYcdILxKebCd+s5dAqur6VhnFArXgA8e6avNpOe9RdKbWwI3l32fcqa7hoRcw5O6M/EB9OB4qzEcKye7o3p/Mi0RdS953GTpj4hXUyZgcKvT7Drbfo3+j8AaP</source>
   </file>
   <file path="Arr.php" generated-path="Arr.html" hash="ac48412511ca1b896fdd9519c0bb2045" package="Default">
     <docblock line="0">

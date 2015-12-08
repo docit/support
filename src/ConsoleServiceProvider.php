@@ -54,8 +54,7 @@ abstract class ConsoleServiceProvider extends BaseServiceProvider
      */
     public function register()
     {
-        foreach ( $this->commands as $binding => $command )
-        {
+        foreach ($this->commands as $binding => $command) {
             $bind    = $this->prefix . $binding;
             $command = '\\' . $this->namespace . '\\' . $command . $this->commandSuffix;
             unset($this->commands[ $binding ]);

@@ -3,7 +3,7 @@
     "description": "Laravel 5 support package",
     "keywords": ["laravel", "support", "repositories", "structure"],
     "license": "MIT",
-    "authors": [ { "name": "Sebwite", "email": "info@sebwite.nl" } ],
+    "authors": [ { "name": "Robin Radic", "email": "info@radic.nl" } ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {

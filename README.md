@@ -1,2 +1,2 @@
-Sebwite Support
+Docit Support
 ====================
